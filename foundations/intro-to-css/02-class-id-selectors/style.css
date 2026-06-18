@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+p{
+    background-color: #ffa7a6; 
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#div-blue{
+    color: #0406d7;
+    font-size: 36px;
+}
+
+#div-green{
+    background-color: #81ff81;
+    font-weight: bold;
+}
+
+.font-24{
+    font-size: 24px;
+}
