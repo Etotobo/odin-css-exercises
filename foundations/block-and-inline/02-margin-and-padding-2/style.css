@@ -3,25 +3,34 @@ body {
   font-family: sans-serif;
 }
 
-.card {
-  width: 400px;
-  background: #fff;
-  margin: 16px auto;
+.title, .content, .button-container {
+  background: #e3f4ff;
+  padding: 16px;
+  margin: 16px 0 0 0;
 }
 
-.title {
-  background: #e3f4ff;
+.card {
+  background: #fff;
+  margin: 16px auto;
+  width: 800px;
+  padding: 16px;
 }
 
 .content {
-  background: #e3f4ff;
+  font-size: 30px;
+  padding: 26px 16px;  
 }
 
 .button-container {
-  background: #e3f4ff;
+  font-size: 30px;
+  text-align: center;
 }
 
 button {
+  display: block;
+  margin: auto;
   background: white;
   border: 1px solid #eee;
+  padding: 16px 40px;
+  font-size: 30px;
 }
