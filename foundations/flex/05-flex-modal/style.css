@@ -16,13 +16,24 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.header{
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 .icon {
+  flex: 1 0 auto;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -48,6 +59,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
@@ -60,6 +72,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin: 16px 0;
 }
 
 button.cancel {
